@@ -35,7 +35,7 @@ curl http://localhost:8081/calculate-frequency?input=aaaaabcccc
 curl http://localhost:8081/calculate-frequency?input=AbCdeE&ignoreCase=true
 ```
 
-Результат: `}{"A":2,"b":1,"C":2,"d":1,"e":2}`
+Результат: `{"A":2,"b":1,"C":2,"d":1,"e":2}`
 
 ## Зависимости
 Java 8 и выше
